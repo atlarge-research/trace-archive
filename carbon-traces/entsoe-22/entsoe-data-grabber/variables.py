@@ -22,6 +22,30 @@ CO2_best = {
     "Biomass":8.5,
 }
 
+CO2_best_aggregated = {
+   "Mixed\nActual Aggregated": 0,
+    "Fossil Brown coal/Lignite\nActual Aggregated": 800,
+    "Fossil Coal-derived gas\nActual Aggregated": 279,
+    "Fossil Gas\nActual Aggregated": 128,
+    "Fossil Hard coal\nActual Aggregated": 600,
+    "Fossil Oil\nActual Aggregated": 530,
+    "Fossil Oil shale\nActual Aggregated": 385,
+    "Fossil Peat\nActual Aggregated": 126,
+    "Geothermal\nActual Aggregated": 11,
+    "Hydro Pumped Storage\nActual Aggregated": 0,
+    "Hydro Run-of-river and poundage\nActual Aggregated": 2,
+    "Hydro Water Reservoir\nActual Aggregated": 6.1,
+    "Marine\nActual Aggregated": 0,
+    "Nuclear\nActual Aggregated": 5.1,
+    "Other renewable\nActual Aggregated": 0,
+    "Solar\nActual Aggregated": 8,
+    "Waste\nActual Aggregated": 376,
+    "Wind Offshore\nActual Aggregated": 12,
+    "Wind Onshore\nActual Aggregated": 7.8,
+    "Other\nActual Aggregated": 0,
+    "Biomass\nActual Aggregated": 8.5
+}
+
 CO2_worst = {
     "Mixed":0,
     "Fossil Brown coal/Lignite":1300,
@@ -73,38 +97,37 @@ EnergyTypeCat = {
 graph_colors = [ '#0077BB', '#EE7733', '#009988', '#33BBEE', '#EE3377', '#CC3311', '#BBBBBB']
 
 country_codes = [
-    "AT",  # Austria
-    "BE",  # Belgium
-    # "BA",  # Bosnia and Herzegovina
-    "BG",  # Bulgaria
-    "HR",  # Croatia
-    "CY",  # Cyprus
+    "AT",  # Austria - yes
+    "AL",  # Albania - yes
+    "BE",  # Belgium - yes
+    "BA",  # Bosnia and Herzegovina - yes
+    "BG",  # Bulgaria - yes
+    "HR",  # Croatia - yes
     "CZ",  # Czech Republic
-    "DK",  # Denmark
-    "EE",  # Estonia
-    "FI",  # Finland
-    "FR",  # France
-    "DE",  # Germany
-    "GR",  # Greece
-    "HU",  # Hungary
-    "IS",  # Iceland
-    "IE",  # Ireland
-    "IT",  # Italy
-    "LV",  # Latvia
-    "LT",  # Lithuania
-    "LU",  # Luxembourg
-    "MK",  # Macedonia (officially known as North Macedonia now)
-    "ME",  # Montenegro
-    "NL",  # Netherlands
-    "NO",  # Norway
-    "PL",  # Poland
-    "PT",  # Portugal
-    "RO",  # Romania
-    "RS",  # Serbia
-    "SK",  # Slovakia
-    "SI",  # Slovenia
-    "ES",  # Spain
-    "SE",  # Sweden
-    "CH",  # Switzerland
-    "GB"   # United Kingdom
+    "DK",  # Denmark - yes
+    "EE",  # Estonia - yes
+    "FI",  # Finland - yes
+    "FR",  # France - yes
+    "DE",  # Germany - yes
+    "GR",  # Greece - yes
+    "HU",  # Hungary - yes
+    "IE",  # Ireland - no
+    "IT",  # Italy - yes
+    "LV",  # Latvia - yes
+    "LT",  # Lithuania - yes
+    "LU",  # Luxembourg - yes
+    "MK",  # Macedonia (officially known as North Macedonia now) - yes
+    "ME",  # Montenegro - no - issues "NaN"
+    "NL",  # Netherlands - yes
+    "NO",  # Norway - yes
+    "PL",  # Poland - yes
+    "PT",  # Portugal - yes
+    "RO",  # Romania - yes
+    "RS",  # Serbia - yes
+    "SK",  # Slovakia - yes
+    "SI",  # Slovenia - yes
+    "ES",  # Spain - yes
+    "SE",  # Sweden - yes
+    "CH",  # Switzerland - yes
+    "GB"   # United Kingdom - no
 ]
